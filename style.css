@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
     background-color: #e5e5e5;
+    margin: 0;
 }
+/* Estilização do titulo e menu */
 .titulo{
     font-family: "Oswald";
     text-align: center;
@@ -14,6 +16,7 @@ body{
     gap: 80px;
     flex-wrap: wrap;
     flex: 1;
+    margin-bottom: 80px;
 }
 .menu li{
     list-style: none;
@@ -33,3 +36,12 @@ li:hover{
     transform: scale(1.1);
     transition: .5s;
 }
+/* Estilização da parte sobre */
+
+.sobre{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 20px;
+    justify-content: center;
+}
+
