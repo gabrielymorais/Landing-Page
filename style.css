@@ -7,6 +7,7 @@ body {
     display: grid;
     justify-content: center;
 }
+
 /* Estilização do titulo e menu */
 .titulo {
     font-family: "Oswald";
@@ -32,6 +33,7 @@ body {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.385);
     background-color: rgba(255, 255, 255, 0.749);
     font-family: 'Oswald';
+    border-radius: 4px;
 }
 
 .menu a:hover {
@@ -41,7 +43,7 @@ body {
 
 /* Estilização da parte sobre */
 
-.posicionamento{
+.posicionamento {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -55,11 +57,13 @@ body {
     display: grid;
     align-content: center;
     justify-items: end;
-    
+
 }
+
 .sobre h1 {
     color: rgba(0, 0, 0, 0.818);
 }
+
 .descricao {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.818);
@@ -75,4 +79,30 @@ body {
     text-transform: uppercase;
 
 }
+
 /* Estilização especificações */
+.sub_espec {
+    font-size: 64px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.especificacoes {
+    background-color: white;
+    padding: 40px;
+}
+
+.espec_items {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.espec_items p {
+    grid-column: 2;
+    text-align: justify;
+}
