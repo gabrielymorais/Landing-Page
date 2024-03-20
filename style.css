@@ -106,3 +106,12 @@ body {
     grid-column: 2;
     text-align: justify;
 }
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+.foto-1{
+    grid-column: 1/-1;
+}
