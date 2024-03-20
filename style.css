@@ -115,3 +115,9 @@ body {
 .foto-1{
     grid-column: 1/-1;
 }
+.rodape{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 0px;
+}
