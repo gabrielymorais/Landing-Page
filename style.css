@@ -41,7 +41,9 @@ body {
     transform: scale(1.1);
     transition: .5s;
 }
-
+.menu li {
+    list-style: none;
+}
 /* Estilização da parte sobre */
 
 .posicionamento {
