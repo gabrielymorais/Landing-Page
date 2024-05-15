@@ -150,4 +150,7 @@ body {
     .posicionamento{
         grid-template-columns: 1fr;
     }
+    .sub_espec{
+        text-align: center;
+    }
 }
