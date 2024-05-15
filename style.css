@@ -154,3 +154,26 @@ body {
         text-align: center;
     }
 }
+@media (max-width:600px){
+    .menu{
+        gap: 2rem;
+    }
+    .sobre{
+        text-align: left;
+        justify-items: start;
+    }
+    .sub_espec{
+        font-size:3rem ;
+
+    }
+}
+@media (max-width:450px){
+    .sub_espec{
+        font-size: 2rem;
+    }
+}
+@media (max-width:350px){
+    .sub_espec{
+        font-size: 1.5rem;
+    }
+}
